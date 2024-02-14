@@ -1,0 +1,13 @@
+ // console.log(2 > 6)
+
+// console.log("2" < 6)
+// console.log(2 != 6)  
+
+
+  // console.log(null == 0) //  prefer not to use such comparisons
+// console.log(null >= 0)   // prefer not to use such comparisons
+// console.log(null > 0)    //prefer not to use such comparisons
+                                     // prefer not to use such comparisons
+console.log(undefined > 0)
+console.log(undefined == 0)        //  prefer not to use such comparisons
+console.log(undefined <= 0)         // prefer not to use such comparisons
