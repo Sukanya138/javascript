@@ -1,0 +1,11 @@
+let score = undefined
+let scores = Boolean(score) 
+
+console.log(scores);
+
+// if we convert string to number it gives number , if we give undefined to boolean it gives false 
+
+let isloggedin =1
+let LoggedIn =Boolean(isloggedin)
+console.log(LoggedIn)
+
