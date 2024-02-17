@@ -1,0 +1,59 @@
+ const arr = [1,2,3,4,5,6]
+console.log(arr[5]);
+
+const arr2 = ["ironman","CA","Hulk"]
+console.log(arr2[1]);
+
+const arr3 = new Array("shaktiman",2,"blackwidow",9,"matrix")
+console.log(arr3[0]);
+
+arr3.push(7)
+console.log(arr3);
+
+arr.pop()
+console.log(arr);
+
+arr2.unshift("spiderman")
+console.log(arr2);
+
+arr.shift()
+console.log(arr);
+
+console.log(arr.includes(5));
+console.log(arr3.indexOf("matrix")); 
+
+const arry = [1,2,3,4,5,6,7,8,9]
+console.log(arry.slice(1,6));
+
+console.log(arry);
+console.log(arry.splice(1,6));
+console.log(arry); 
+
+// Array Advance
+
+const marvel = ["CA","thor","hulk"]
+const dc = ["batman","flash","superman"]
+
+ marvel.push(dc)
+console.log(marvel);
+console.log(marvel[3][2]); 
+
+const heros = marvel.concat(dc)
+ console.log(heros);
+
+const hero = [...marvel,...dc]
+console.log(hero);
+
+const array = [1,2,3,[4,5,8],2,[2,3,[4,5]]]
+console.log(array.flat(1));
+console.log(Array.isArray(2));
+console.log(Array.from("sukanya"));
+
+console.log(Array.from({name :"sukanya"}));
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+console.log(Array.of(score1,score2,score3));
+
+
